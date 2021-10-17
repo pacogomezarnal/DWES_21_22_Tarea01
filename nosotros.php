@@ -22,7 +22,7 @@
                     <?php echo "Inicio"?>
                 </a>
                 <a class="navbar-item" href="http://localhost:8080/producto.php">
-                    <<?php echo "Producto"?>
+                    <?php echo "Producto"?>
                 </a>
                 <a class="navbar-item" href="http://localhost:8080/nosotros.php">
                     <?php echo "Nosotros"?>
@@ -33,11 +33,22 @@
     <section class="section">
         <div class="container">
         <h1 class="title">
-            Página Principal
+            Sobre Nosotros
         </h1>
-        <p class="subtitle">
-            Este es un ejemplo de la página principal
-        </p>
+        <div class="columns">
+            <div class="column">
+                <img src="<?php echo ./img/persona01.jpg"?>">
+            </div>
+            <div class="column">
+                <img src="./img/persona02.jpg">
+            </div>
+            <div class="column">
+                <img src="./img/persona03.jpg">
+            </div>
+            <div class="column">
+                <img src="./img/persona04.jpg">
+            </div>
+            </div>
         </div>
     </section>
 </body>
